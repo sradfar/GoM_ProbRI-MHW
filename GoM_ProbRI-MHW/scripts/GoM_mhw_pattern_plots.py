@@ -6,7 +6,7 @@
 % Department of Civil, Construction, and Environmental Engineering
 % The University of Alabama
 %
-% Last modified on April 24, 2024
+% Last modified on June 28, 2024
 %
 % This script is part of the research on the impact of marine heatwaves on the 
 % rapid intensification (RI) of tropical cyclones. The primary aim of this script is to
@@ -18,7 +18,7 @@
 % 3. Mean Intensity of MHW Events
 %
 % For details on the research framework and methodologies, refer to:
-% Radfar, S., Moftakhari, H., and Moradkhani, H. (2024), Unraveling the Regional Compounding Effects of Marine Heatwaves on Rapid Intensification of Tropical Cyclones,
+% Radfar, S., Moftakhari, H., and Moradkhani, H. (2024), Rapid intensification of tropical cyclones in the Gulf of Mexico is more likely during marine heatwaves,
 % Communications Earth & Environment.
 % Link: 
 %
