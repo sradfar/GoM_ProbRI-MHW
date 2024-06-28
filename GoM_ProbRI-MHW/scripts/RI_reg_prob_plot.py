@@ -6,7 +6,7 @@
 % Department of Civil, Construction, and Environmental Engineering
 % The University of Alabama
 %
-% Last modified on April 24, 2024
+% Last modified on June 28, 2024
 %
 % This script is designed to quantitatively analyze and visually represent the spatial distribution 
 % and probabilities of rapid intensification (RI) events of tropical cyclones in the Gulf of Mexico. 
@@ -16,7 +16,7 @@
 % 2. The conditional probability of RI occurrences across the region.
 %
 % For details on the research framework and methodologies, refer to:
-% Radfar, S., Moftakhari, H., and Moradkhani, H. (2024), Unraveling the Regional Compounding Effects of Marine Heatwaves on Rapid Intensification of Tropical Cyclones,
+% Radfar, S., Moftakhari, H., and Moradkhani, H. (2024), Rapid intensification of tropical cyclones in the Gulf of Mexico is more likely during marine heatwaves,
 % Communications Earth & Environment.
 % Link: 
 %
@@ -60,7 +60,7 @@ grid_counts = np.zeros((len(lat_centers), len(lon_centers)))
 grid_probs = np.zeros((len(lat_centers), len(lon_centers)))
 
 # Load the MHW data
-hi_data = pd.read_csv('../intensifications.csv')
+hi_data = pd.read_csv('../intensifications30_IID_24.csv')
 hi_groups = hi_data.groupby(['HI_lat', 'HI_lon', 'HI_name'])
 
 # Iterate over each row of the data
@@ -83,7 +83,7 @@ grid_probs = 100 * (grid_counts / total_mhw_events)
 
 # Mask the grids with cond_probs = 0 and set their color to blue
 masked_grid_probs = np.ma.masked_where(grid_probs == 0, grid_probs)
-cmap = plt.get_cmap('hot_r')
+cmap = plt.get_cmap('Reds')
 cmap.set_bad('#CCECFF')
 masked_grid = masked_grid_probs / 100
 
@@ -95,14 +95,10 @@ plt.figure(figsize=(8, 6))
 quadmesh = m.pcolormesh(x, y, masked_grid[::-1], cmap=cmap)
 m.drawcoastlines()
 
-# Get the current hatch color from rcParams
-hatch_color = plt.rcParams['hatch.color']
-
-# Set the hatch line color to white
-plt.rcParams['hatch.color'] = 'black'
-
-colorbar = plt.colorbar(quadmesh, label='Probability', shrink=0.87) # Add color bar label
-m.fillcontinents(color='grey')
+colorbar = plt.colorbar(quadmesh, orientation='horizontal', pad = 0.07, shrink=0.72) # Add color bar label
+colorbar.ax.tick_params(labelsize=10)
+colorbar.set_label('Probability', fontsize=10)
+m.fillcontinents(color='lightgrey')
 plt.rcParams['hatch.linewidth'] = 0.6
 
 # Add latitude and longitude labels
@@ -111,5 +107,5 @@ lon_labels = np.arange(-100, -77, 5)
 m.drawparallels(lat_labels, labels=[True, False, False, False], fontsize=12)
 m.drawmeridians(lon_labels, labels=[False, False, False, True], fontsize=12)
 
-plt.savefig('../HI_only_24.pdf') # save the figure as a PDF
+plt.savefig('Figure 4.pdf') # save the figure as a PDF
 plt.show()
