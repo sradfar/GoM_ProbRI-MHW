@@ -4,7 +4,7 @@ This repository contains code and analysis related to research on the impact of 
 
 ## Projects
 
-This research is divided into three main projects. Each project is associated with a research paper (#Research Papers). Currently, only the codes and data for the first project is publicly available. Details of the research papers are as follows:
+This research is divided into three main projects. Each project is associated with a research paper. Currently, only the codes and data for the first project is publicly available. Details of the research papers are as follows:
 
 **Research Papers:**
 
@@ -12,7 +12,7 @@ This research is divided into three main projects. Each project is associated wi
    - **Folder Name:** `GoM_ProbRI-MHW`
    - **Title:** Rapid intensification of tropical cyclones in the Gulf of Mexico is more likely during marine heatwaves
    - **Status:** Accepted for publication in Nature Communications Earth & Environment
-   - **Link to the Published Paper:** [Nature Communications Earth & Environment](#) *(replace "#" with the actual link)*
+   - **Link to the Published Paper:** [Nature Communications Earth & Environment](https://www.nature.com/collections/cgdbbcfjii)
 
 2. **Second Paper:**
    - **Title:** Global predictability of marine heatwave induced rapid intensification of tropical cyclones
