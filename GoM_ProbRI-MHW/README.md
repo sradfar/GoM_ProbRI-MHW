@@ -1,4 +1,4 @@
-# Research on Links between Marine Heatwaves (MHWs) and Rapid Intensification (RI) of Tropical Cyclones
+# Project 1: Links between Marine Heatwaves (MHWs) and Rapid Intensification (RI) of Tropical Cyclones in the Gulf of Mexico and the northwestern Carrribean Sea
 
 This repository contains code and analysis related to the study of the impact of marine heatwaves (MHWs) on the rapid intensification (RI) of tropical cyclones (TCs). This study presents a probabilistic framework that evaluates the likelihood of complex interactions between MHWs and RI events in the Gulf of Mexico and northwestern Caribbean Sea regions.
 
