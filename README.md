@@ -1,33 +1,51 @@
 # Research on Links between Marine Heatwaves (MHWs) and Rapid Intensification (RI) of Tropical Cyclones
 
-This repository contains code and analysis related to research on the impact of marine heatwaves on the rapid intensification of tropical cyclones. The project aims to investigate the relationship between ocean temperature anomalies and the rapid intensification of tropical cyclones.
+This repository contains code and analysis related to the study of the impact of marine heatwaves (MHWs) on the rapid intensification (RI) of tropical cyclones (TCs). The rapid intensification of TCs is a multifaceted phenomenon influenced by various oceanic and atmospheric factors, posing significant challenges to accurate TC forecasting and simulation. A key contributing factor to this intensification process is the presence of prolonged high sea surface temperatures, also known as marine heatwaves. However, the extent to which MHWs contribute to the compounding effect of RI events has not been fully explored. 
 
-## Projects
-
-This research is divided into three main projects. Each project is associated with a research paper. Currently, only the codes and data for the first project is publicly available. Details of the research papers are as follows:
-
-**Research Papers:**
-
-1. **First Paper:**
-   - **Folder Name:** `GoM_ProbRI-MHW`
-   - **Title:** Rapid intensification of tropical cyclones in the Gulf of Mexico is more likely during marine heatwaves
-   - **Status:** Accepted for publication in Nature Communications Earth & Environment
-   - **Link to the Published Paper:** [Nature Communications Earth & Environment](https://www.nature.com/collections/cgdbbcfjii)
-
-2. **Second Paper:**
-   - **Title:** Global predictability of marine heatwave induced rapid intensification of tropical cyclones
-   - **Status:** Under review in AGU Earth's Future
-
-3. **Third Paper:**
-   - **Title:** Under preparation
+This study presents a probabilistic framework that evaluates the likelihood of complex interactions between MHWs and RI events in the Gulf of Mexico and northwestern Caribbean Sea regions. Historical analysis shows that the presence of MHWs has been influential in the RI of 70% of past hurricanes. According to our analysis, MHWs can increase the likelihood of RI events by up to five times (on average 1.5 times) compared to non-MHW situations. These results emphasize the need for improved understanding and monitoring of these compounding phenomena for reliable TC risk assessment.
 
 ## Table of Contents
 
+- [Installation](#installation)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [Data](#data)
 - [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 - [Contact](#contact)
+
+## Installation
+
+To run the code in this repository, you'll need to have the following dependencies installed:
+
+## Python Dependencies
+- Python 3.7 or higher
+- NumPy
+- Pandas
+- Matplotlib
+- Xarray
+- Scipy
+- Seaborn
+- Tqdm
+- NetCDF4
+- Basemap
+
+You can install the required Python packages using pip:
+```bash
+pip install numpy pandas matplotlib xarray scipy seaborn tqdm netCDF4 basemap
+
+## R Dependencies
+- ncdf4
+- dplyr
+- lubridate
+
+You can install the required R packages using the following commands in R:
+```bash
+install.packages("ncdf4")
+install.packages("dplyr")
+install.packages("lubridate")
 
 ## Results
 The main output of this analysis will be a set of visualizations and statistical analyses exploring the relationship between marine heatwaves and the rapid intensification of tropical cyclones. The results are available in the cited papers.
