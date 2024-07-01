@@ -7,7 +7,7 @@ This repository contains code and analysis related to the study of the impact of
 If you use the codes, data, ideas, or results from this project, please cite the following paper:
 
 **Radfar, S., Moftakhari, H., & Moradkhani, H. (2024). Rapid intensification of tropical cyclones in the Gulf of Mexico is more likely during marine heatwaves. Nature Communications Earth & Environment.**
-
+**Link to the Published Paper:** [Nature Communications Earth & Environment](https://www.nature.com/collections/cgdbbcfjii#:~:text=Weather%20and%20climate%20extremes%20have%20become%20more%20frequent,and%20social%20%28in%29justice%20to%20biodiversity%20and%20ecosystem%20loss.)
 
 ## Table of Contents
 
