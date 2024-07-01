@@ -20,7 +20,7 @@ This study presents a probabilistic framework that evaluates the likelihood of c
 
 To run the code in this repository, you'll need to have the following dependencies installed:
 
-## Python Dependencies
+### Python Dependencies
 - Python 3.7 or higher
 - NumPy
 - Pandas
@@ -37,7 +37,7 @@ You can install the required Python packages using pip:
 pip install numpy pandas matplotlib xarray scipy seaborn tqdm netCDF4 basemap
 ```
 
-## R Dependencies
+### R Dependencies
 - ncdf4
 - dplyr
 - lubridate
