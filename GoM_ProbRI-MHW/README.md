@@ -47,6 +47,23 @@ install.packages("dplyr")
 install.packages("lubridate")
 ```
 
+## Usage
+
+Each script file has a description on top that clearly describes the objectives of that code and expected outputs. Brief explanations of the scripts are as follows:
+
+- `tc_landfall.py`: Used to plot landfalling TC tracks [Figure 2a].
+- `five_tc_tracks.py`: Used to plot tracks and categories of five costly historical TCs of the study area [Figure 2b].
+- `SST trend gm.R`: Used to plot the monthly SST trend in the study area [Figure 3].
+- `HI_finder.py`: One of the main analysis codes used to detect RI events according to NHC definition.
+- `RI_reg_prob_plot.py`: Used for calculating and plotting the probability of RI occurrence in the GoM and NWCS regions [Figure 4].
+- `mhw_detect_era5.R`: Another main analysis code used for detecting historical MHW events.
+- `GoM_mhw_pattern_plots.py`: Used for calculating and plotting the mean number, duration, and intensity of MHWs across the GoM and NWCS [Figure 5].
+- `intensity_duration_plot.py`: Used for plotting maximum intensity relative to the SST threshold [˚C] and duration [days] across the GoM and NWCS [Figure 6].
+- `compound_mhw_RI.py`: The final main analysis code used for detecting compound MHW-RI events; events with close spatiotemporal gaps.
+- `multiply_rate.py`: Used for calculating and plotting multiplication rates in the study area [Figure 8].
+- `TCHP_plot.py`, `VWS_plot.py`, `LHF_plot.py`: Used for calculating and plotting mean heat content, wind shear, and latent flux [Figure 9].
+- `all_tracks.py`, `tc_track.py`: Used to plot Supplementary Figures 1 and 2.
+
 ## File Structure
 ```bash
 ├── data/
