@@ -4,9 +4,7 @@ This repository contains code and analysis related to research on the impact of 
 
 ## Projects
 
-This research is divided into three main projects. Currently, only the first project is publicly available. Details of the projects and associated research papers are as follows:
-
-### Project 1: Gulf of Mexico (GoM) - Probabilistic Analysis of Rapid Intensification during Marine Heatwaves
+This research is divided into three main projects. Each project is associated with a research paper (#Research Papers). Currently, only the codes and data for the first project is publicly available. Details of the research papers are as follows:
 
 **Research Papers:**
 
