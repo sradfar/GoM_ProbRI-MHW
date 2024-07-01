@@ -1,8 +1,6 @@
 # Research on Links between Marine Heatwaves (MHWs) and Rapid Intensification (RI) of Tropical Cyclones
 
-This repository contains code and analysis related to the study of the impact of marine heatwaves (MHWs) on the rapid intensification (RI) of tropical cyclones (TCs). The rapid intensification of TCs is a multifaceted phenomenon influenced by various oceanic and atmospheric factors, posing significant challenges to accurate TC forecasting and simulation. A key contributing factor to this intensification process is the presence of prolonged high sea surface temperatures, also known as marine heatwaves. However, the extent to which MHWs contribute to the compounding effect of RI events has not been fully explored. 
-
-This study presents a probabilistic framework that evaluates the likelihood of complex interactions between MHWs and RI events in the Gulf of Mexico and northwestern Caribbean Sea regions. Historical analysis shows that the presence of MHWs has been influential in the RI of 70% of past hurricanes. According to our analysis, MHWs can increase the likelihood of RI events by up to five times (on average 1.5 times) compared to non-MHW situations. These results emphasize the need for improved understanding and monitoring of these compounding phenomena for reliable TC risk assessment.
+This repository contains code and analysis related to the study of the impact of marine heatwaves (MHWs) on the rapid intensification (RI) of tropical cyclones (TCs). This study presents a probabilistic framework that evaluates the likelihood of complex interactions between MHWs and RI events in the Gulf of Mexico and northwestern Caribbean Sea regions.
 
 ## Table of Contents
 
