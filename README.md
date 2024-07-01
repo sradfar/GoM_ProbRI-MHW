@@ -1,6 +1,6 @@
 # Research on Links between Marine Heatwaves (MHWs) and Rapid Intensification (RI) of Tropical Cyclones
 
-This repository contains code and analysis related to research on the impact of marine heatwaves on the rapid intensification of tropical cyclones. The project aims to investigate the relationship between ocean temperature anomalies and the rapid intensification of tropical cyclones.
+This repository contains code and analysis related to research on the impact of marine heatwaves on the rapid intensification of tropical cyclones. This set of projects aims to investigate the relationship between ocean temperature anomalies and the rapid intensification of tropical cyclones.
 
 ## Table of Contents
 
