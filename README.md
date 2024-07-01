@@ -2,11 +2,18 @@
 
 This repository contains code and analysis related to research on the impact of marine heatwaves on the rapid intensification of tropical cyclones. The project aims to investigate the relationship between ocean temperature anomalies and the rapid intensification of tropical cyclones.
 
+## Table of Contents
+
+- [Projects](#projects)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+- [Contact](#contact)
+
 ## Projects
 
 This research is divided into three main projects. Each project is associated with a research paper. Currently, only the codes and data related to the first project is publicly available. Details of the research papers are as follows:
-
-### Project 1: Gulf of Mexico (GoM) - Probabilistic Analysis of Rapid Intensification during Marine Heatwaves
 
 **Research Papers:**
 
