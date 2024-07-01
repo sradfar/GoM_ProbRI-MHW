@@ -60,6 +60,7 @@ Each script file has a description on top that clearly describes the objectives 
 - `GoM_mhw_pattern_plots.py`: Used for calculating and plotting the mean number, duration, and intensity of MHWs across the GoM and NWCS [Figure 5].
 - `intensity_duration_plot.py`: Used for plotting maximum intensity relative to the SST threshold [˚C] and duration [days] across the GoM and NWCS [Figure 6].
 - `compound_mhw_RI.py`: The final main analysis code used for detecting compound MHW-RI events; events with close spatiotemporal gaps.
+- `conditional_mhw_ri_prob.py`: Used for calculating and plotting the conditional probabilities of RI occurrence given MHW occurrence [Figure 7].
 - `multiply_rate.py`: Used for calculating and plotting multiplication rates in the study area [Figure 8].
 - `TCHP_plot.py`, `VWS_plot.py`, `LHF_plot.py`: Used for calculating and plotting mean heat content, wind shear, and latent flux [Figure 9].
 - `all_tracks.py`, `tc_track.py`: Used to plot Supplementary Figures 1 and 2.
@@ -88,6 +89,7 @@ Each script file has a description on top that clearly describes the objectives 
 │   ├── VWS_plot.py
 │   ├── all_tracks.py
 │   ├── compound_mhw_RI.py
+│   ├── conditional_mhw_ri_prob.py
 │   ├── five_tc_tracks.py
 │   ├── intensity_duration_plot.py
 │   ├── mhw_detect_era5.R
@@ -97,6 +99,28 @@ Each script file has a description on top that clearly describes the objectives 
 ├── LICENSE
 └── README.md
 ```
+
+## Data
+
+This project requires multiple types of input data:
+
+1. **Sea Surface Temperature (SST) Data**: 
+   - The sea surface temperature (SST) data used in this study were obtained from the ERA5 dataset, provided by the Copernicus Climate Change Service (C3S), and is publicly available at [ERA5 SST dataset](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=form).
+
+2. **Tropical Cyclone Track and Intensity Data**: 
+   - The International Best Track Archive for Climate Stewardship (IBTrACS) dataset, provided by the National Centers for Environmental Information (NCEI), is available from [IBTrACS dataset](https://www.ncei.noaa.gov/products/international-best-track-archive).
+
+3. **Thermal Ocean Parameters**: 
+   - TCHP, D26, and MLD data were obtained from the NOAA’s Operational Satellite Ocean Heat Content Suite, available at the National Centers for Environmental Information (NCEI) website [NOAA Ocean Heat Content Suite](https://www.ncei.noaa.gov/products/satellite-ocean-heat-content-suite).
+
+4. **Latent Heat Flux (LHF) Data**: 
+   - LHF data was sourced from the ERA5 hourly data on single levels, accessible via the Copernicus Climate Data Store [ERA5 LHF dataset](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=form).
+
+5. **Vertical Wind Shear (VWS) Data**: 
+   - Data for VWS were calculated based on u and v component wind speeds at 200- and 850 hPa pressure levels, obtained from ERA5 hourly data on pressure levels. This dataset is also available on the Copernicus Climate Data Store [ERA5 Pressure Levels dataset](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-pressure-levels?tab=form).
+
+6. **Additional Data**: 
+   - Other data used for creating the plots are freely available in the `data/` folder of this repository.
 
 ## Results
 The main output of this analysis will be a set of visualizations and statistical analyses exploring the relationship between marine heatwaves and the rapid intensification of tropical cyclones. The results are available in the cited papers.
