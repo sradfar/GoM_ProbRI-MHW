@@ -35,6 +35,7 @@ To run the code in this repository, you'll need to have the following dependenci
 You can install the required Python packages using pip:
 ```bash
 pip install numpy pandas matplotlib xarray scipy seaborn tqdm netCDF4 basemap
+```
 
 ## R Dependencies
 - ncdf4
@@ -46,6 +47,7 @@ You can install the required R packages using the following commands in R:
 install.packages("ncdf4")
 install.packages("dplyr")
 install.packages("lubridate")
+```
 
 ## Results
 The main output of this analysis will be a set of visualizations and statistical analyses exploring the relationship between marine heatwaves and the rapid intensification of tropical cyclones. The results are available in the cited papers.
