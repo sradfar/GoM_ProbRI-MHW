@@ -2,6 +2,13 @@
 
 This repository contains code and analysis related to the study of the impact of marine heatwaves (MHWs) on the rapid intensification (RI) of tropical cyclones (TCs). This study presents a probabilistic framework that evaluates the likelihood of complex interactions between MHWs and RI events in the Gulf of Mexico and northwestern Caribbean Sea regions.
 
+## Cite
+
+If you use the codes, data, ideas, or results from this project, please cite the following paper:
+
+**Radfar, S., Moftakhari, H., & Moradkhani, H. (2024). Rapid intensification of tropical cyclones in the Gulf of Mexico is more likely during marine heatwaves. Nature Communications Earth & Environment.**
+
+
 ## Table of Contents
 
 - [Installation](#installation)
