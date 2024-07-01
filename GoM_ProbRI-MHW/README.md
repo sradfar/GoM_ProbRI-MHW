@@ -1,4 +1,4 @@
-# Research on Links between MHWs and RI of Tropical Cyclones in the Gulf of Mexico and the northwestern Carribean Sea
+# Research on Links between Marine Heatwaves (MHWs) and Rapid Intensification (RI) of Tropical Cyclones
 
 This repository contains code and analysis related to the study of the impact of marine heatwaves (MHWs) on the rapid intensification (RI) of tropical cyclones (TCs). The rapid intensification of TCs is a multifaceted phenomenon influenced by various oceanic and atmospheric factors, posing significant challenges to accurate TC forecasting and simulation. A key contributing factor to this intensification process is the presence of prolonged high sea surface temperatures, also known as marine heatwaves. However, the extent to which MHWs contribute to the compounding effect of RI events has not been fully explored. 
 
@@ -19,58 +19,38 @@ This study presents a probabilistic framework that evaluates the likelihood of c
 ## Installation
 
 To run the code in this repository, you'll need to have the following dependencies installed:
+
+### Python Dependencies
 - Python 3.7 or higher
 - NumPy
 - Pandas
 - Matplotlib
 - Xarray
 - Scipy
+- Seaborn
+- Tqdm
+- NetCDF4
+- Basemap
 
 You can install the required Python packages using pip:
 ```bash
-pip install numpy pandas matplotlib xarray scipy
+pip install numpy pandas matplotlib xarray scipy seaborn tqdm netCDF4 basemap
 ```
 
-## Usage
-The main script to run the analysis is main.py. Execute it with the following command:
+### R Dependencies
+- ncdf4
+- dplyr
+- lubridate
+
+You can install the required R packages using the following commands in R:
 ```bash
-python main.py
+install.packages("ncdf4")
+install.packages("dplyr")
+install.packages("lubridate")
 ```
-This script will load the necessary data, perform the analysis, and generate output files and visualizations.
-
-## File Structure
-```bash
-├── data/
-│   ├── sst_data/
-│   └── cyclone_data/
-├── output/
-├── scripts/
-│   ├── data_processing.py
-│   ├── analysis.py
-│   └── visualization.py
-├── main.py
-└── README.md
-```
-
-Below is an overview of the main directories and files included in this repository:
-
-- `data`: Directory containing input data files
-  - `sst_data`: Sea surface temperature data
-  - `cyclone_data`: Tropical cyclone track and intensity data
-- `output`: Directory where output files and visualizations will be saved
-- `scripts`: Directory containing Python scripts for data processing, analysis, and visualization
-- `main.py`: Main script to run the analysis
-- `README.md`: This file
-
-## Data
-This project requires two types of input data:
-
-1. **Sea Surface Temperature (SST) Data**: Obtainable from NOAA's Optimum Interpolation SST dataset or the Hadley Centre SST dataset.
-2. **Tropical Cyclone Track and Intensity Data**: Obtainable from the International Best Track Archive for Climate Stewardship (IBTrACS) or the Joint Typhoon Warning Center (JTWC).
-Please ensure that the data files are placed in the appropriate directories (`data/sst_data/` and `data/cyclone_data/`) before running the analysis.
 
 ## Results
-The main output of this analysis will be a set of visualizations and statistical analyses exploring the relationship between marine heatwaves and the rapid intensification of tropical cyclones. The output files will be saved in the `output/` directory.
+The main output of this analysis will be a set of visualizations and statistical analyses exploring the relationship between marine heatwaves and the rapid intensification of tropical cyclones. The results are available in the cited papers.
 
 ## Contributing
 Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
@@ -79,7 +59,7 @@ Contributions to this project are welcome. If you find any issues or have sugges
 This project is licensed under the Apache License.
 
 ## Acknowledgments
-This research is supported by the Center for Complex Hydrosystems Research at the University of Alabama. We would like to thank **Dr. Alex Sen Gupta** (UNSW) and **Dr. Gregory Foltz** (NOAA) for their valuable contributions to this project. Funding was awarded to Cooperative Institute for Research to Operations in Hydrology (CIROH) through the NOAA Cooperative Agreement with The University of Alabama (NA22NWS4320003). Partial support is also provided by NSF award # 2223893.
+This research is supported by the Coastal Hydrology Lab and the Center for Complex Hydrosystems Research at the University of Alabama. Funding was awarded to Cooperative Institute for Research to Operations in Hydrology (CIROH) through the NOAA Cooperative Agreement with The University of Alabama (NA22NWS4320003). Partial support was also provided by NSF award # 2223893.
 
 ## Contact
 For any questions or inquiries, please contact the project maintainer at [sradfar@ua.edu].
