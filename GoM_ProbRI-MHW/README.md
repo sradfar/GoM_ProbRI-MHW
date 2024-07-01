@@ -47,6 +47,40 @@ install.packages("dplyr")
 install.packages("lubridate")
 ```
 
+## File Structure
+```bash
+├── data/
+│   ├── MHW_1940_2022_80_52.csv
+│   ├── MHW_1950_2022_80_52.csv
+│   ├── Monthly_RI_data.xlsx
+│   ├── gom_1940_1980.rds
+│   ├── gom_1981_2022.rds
+│   ├── ibtracs_5tc.csv
+│   ├── ibtracs_data.csv
+│   ├── intensifications30_IID_24.csv
+│   ├── intensifications_24 - Copy.csv
+│   ├── sst gom.xlsx
+│   └── .gitattributes
+├── scripts/
+│   ├── GoM_mhw_pattern_plots.py
+│   ├── HI_finder.py
+│   ├── LHF_plot.py
+│   ├── RI_reg_prob_plot.py
+│   ├── SST trend gm.R
+│   ├── TCHP_plot.py
+│   ├── VWS_plot.py
+│   ├── all_tracks.py
+│   ├── compound_mhw_RI.py
+│   ├── five_tc_tracks.py
+│   ├── intensity_duration_plot.py
+│   ├── mhw_detect_era5.R
+│   ├── multiply_rate.py
+│   ├── tc_landfall.py
+│   └── tc_track.py
+├── LICENSE
+└── README.md
+```
+
 ## Results
 The main output of this analysis will be a set of visualizations and statistical analyses exploring the relationship between marine heatwaves and the rapid intensification of tropical cyclones. The results are available in the cited papers.
 
