@@ -21,9 +21,8 @@
 #    representation suitable for reports or further analysis.
 #
 # For a comprehensive methodology and further details, refer to:
-# Radfar, S., Moftakhari, H., and Moradkhani, H. (2024), Visualization of tropical cyclone activity 
-# in the Gulf of Mexico using wind speed data, Communications Earth & Environment.
-# Link: [Insert link here]
+# Radfar, S., Moftakhari, H. & Moradkhani, H. Rapid intensification of tropical cyclones in the Gulf of Mexico is more likely during marine heatwaves. Commun Earth Environ 5, 421 (2024).
+# Link: https://doi.org/10.1038/s43247-024-01578-2
 #
 # Disclaimer:
 # This script is intended for research and educational purposes only. It is provided 'as is' 
