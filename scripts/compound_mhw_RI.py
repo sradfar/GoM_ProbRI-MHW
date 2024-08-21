@@ -26,9 +26,8 @@
 %     within the defined proximity limits.
 %
 % For details on the research framework and methodologies, refer to:
-% Radfar, S., Moftakhari, H., and Moradkhani, H. (2024), Rapid intensification of tropical cyclones in the Gulf of Mexico is more likely during marine heatwaves,
-% Communications Earth & Environment.
-% Link: 
+% Radfar, S., Moftakhari, H. & Moradkhani, H. Rapid intensification of tropical cyclones in the Gulf of Mexico is more likely during marine heatwaves. Commun Earth Environ 5, 421 (2024).
+% Link: https://doi.org/10.1038/s43247-024-01578-2
 %
 % Disclaimer:
 % This script is designed for instructional, educational, and research use only.
